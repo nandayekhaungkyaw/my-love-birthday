@@ -71,7 +71,7 @@ export default function BirthdayPage() {
           onClick={toggleMusic}
           className="absolute top-4 right-4 p-3 bg-white/80 rounded-full shadow-md hover:bg-white transition-colors"
           aria-label={isMusicPlaying ? "Pause music" : "Play music"}>
-          {isMusicPlaying ? <VolumeX size={20} /> : <Volume2 size={20} />}
+          {!isMusicPlaying ? <VolumeX size={20} /> : <Volume2 size={20} />}
         </button>
       </header>
       <div className="max-w-5xl mx-auto px-4 py-8">
@@ -79,7 +79,7 @@ export default function BirthdayPage() {
         <section className="mb-16">
           <div className="flex items-center mb-6">
             <Heart className="text-red-500 mr-2" />
-            <h2 className="text-3xl font-bold">Special Message For You</h2>
+            <h2 className="text-3xl font-bold">Happy Birthday To You</h2>
           </div>
           <VideoMessage />
         </section>

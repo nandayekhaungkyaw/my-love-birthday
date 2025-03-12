@@ -26,7 +26,7 @@ export default function VideoMessage() {
          
           <iframe
             className="w-full h-full"
-            src="https://www.youtube.com/embed/LH57uZUxSKo?si=awBo0XimHSEhC3Hw"
+            src="https://www.youtube.com/embed/0DpBdsqlw0A?si=R-eD7w3AzD6sswij"
             title="Birthday Video Message"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen></iframe>
